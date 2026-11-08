@@ -1,0 +1,14 @@
+bin/xluke44-prismlauncher
+lib/libbz2.so.1.0
+portable.txt
+share/applications/org.xluke44.Prismlauncher.desktop
+share/icons/hicolor/scalable/apps/org.prismlauncher.PrismLauncher.svg
+share/man/man6/prismlauncher.6
+share/metainfo/org.xluke44.Prismlauncher.metainfo.xml
+share/mime/packages/modrinth-mrpack-mime.xml
+share/qlogging-categories6/xluke44prismlauncher.categories
+share/XLuke44Prismlauncher/JavaCheck.jar
+share/XLuke44Prismlauncher/NewLaunch.jar
+share/XLuke44Prismlauncher/NewLaunchLegacy.jar
+share/XLuke44Prismlauncher/qtlogging.ini
+XLuke44Prismlauncher
