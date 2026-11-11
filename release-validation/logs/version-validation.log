@@ -1,0 +1,4 @@
+136:set(Launcher_VERSION_MAJOR 1)
+137:set(Launcher_VERSION_MINOR 0)
+138:set(Launcher_VERSION_PATCH 3)
+140:set(Launcher_VERSION_NAME "${Launcher_VERSION_MAJOR}.${Launcher_VERSION_MINOR}.${Launcher_VERSION_PATCH}")

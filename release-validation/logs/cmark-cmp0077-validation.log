@@ -1,0 +1,12 @@
+CMP0077 developer warning validation
+
+A wrapper CMake project sets BUILD_SHARED_LIBS=0 as a normal variable, then adds the bundled cmark directory. This reproduces the parent/child policy interaction that previously emitted a CMP0077 developer warning.
+
+libraries/cmark/CMakeLists.txt now sets CMP0077 to NEW when the policy is available, before calling option(BUILD_SHARED_LIBS ...).
+
+Results:
+- Fresh CMake configure completed without the CMP0077 developer warning.
+- CMake asserted the cmark target type was STATIC_LIBRARY.
+- The cmark static library compiled successfully (20 Ninja steps).
+
+Logs: cmark-cmp0077-configure.log and cmark-cmp0077-build.log.

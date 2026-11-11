@@ -1,0 +1,20 @@
+[1/20] Building C object cmark/src/CMakeFiles/cmark.dir/cmark_ctype.c.o
+[2/20] Building C object cmark/src/CMakeFiles/cmark.dir/cmark.c.o
+[3/20] Building C object cmark/src/CMakeFiles/cmark.dir/houdini_href_e.c.o
+[4/20] Building C object cmark/src/CMakeFiles/cmark.dir/houdini_html_e.c.o
+[5/20] Building C object cmark/src/CMakeFiles/cmark.dir/buffer.c.o
+[6/20] Building C object cmark/src/CMakeFiles/cmark.dir/houdini_html_u.c.o
+[7/20] Building C object cmark/src/CMakeFiles/cmark.dir/commonmark.c.o
+[8/20] Building C object cmark/src/CMakeFiles/cmark.dir/iterator.c.o
+[9/20] Building C object cmark/src/CMakeFiles/cmark.dir/blocks.c.o
+[10/20] Building C object cmark/src/CMakeFiles/cmark.dir/html.c.o
+[11/20] Building C object cmark/src/CMakeFiles/cmark.dir/latex.c.o
+[12/20] Building C object cmark/src/CMakeFiles/cmark.dir/man.c.o
+[13/20] Building C object cmark/src/CMakeFiles/cmark.dir/node.c.o
+[14/20] Building C object cmark/src/CMakeFiles/cmark.dir/references.c.o
+[15/20] Building C object cmark/src/CMakeFiles/cmark.dir/render.c.o
+[16/20] Building C object cmark/src/CMakeFiles/cmark.dir/inlines.c.o
+[17/20] Building C object cmark/src/CMakeFiles/cmark.dir/xml.c.o
+[18/20] Building C object cmark/src/CMakeFiles/cmark.dir/utf8.c.o
+[19/20] Building C object cmark/src/CMakeFiles/cmark.dir/scanners.c.o
+[20/20] Linking C static library cmark/src/libcmark.a

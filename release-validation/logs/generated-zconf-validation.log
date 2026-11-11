@@ -1,0 +1,18 @@
+zlib object compile evidence:
+[2/33] Building C object CMakeFiles/zlib.dir/gzclose.c.o
+[4/33] Building C object CMakeFiles/zlib.dir/gzread.c.o
+[7/33] Building C object CMakeFiles/zlib.dir/gzwrite.c.o
+[17/33] Building C object CMakeFiles/zlibstatic.dir/gzclose.c.o
+[20/33] Building C object CMakeFiles/zlibstatic.dir/gzread.c.o
+[21/33] Linking C shared library libz.so.1.2.13
+[23/33] Building C object CMakeFiles/zlibstatic.dir/gzwrite.c.o
+[33/33] Linking C static library libz.a
+
+Generated zconf.h key defines/types:
+7:#define ZCONF_H
+237:     typedef size_t z_size_t;
+367:   typedef void const *voidpc;
+393:#define Z_HAVE_UNISTD_H
+394:#define Z_HAVE_STDARG_H
+
+PASS: generated CMake zconf.h contains the selected, non-conflicting platform definitions.

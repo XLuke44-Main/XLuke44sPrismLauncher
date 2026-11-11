@@ -1,0 +1,13 @@
+CMake compatibility-deprecation validation
+
+Observed in the supplied log:
+- CMake Deprecation Warning at 12 bundled child CMakeLists.txt files.
+- Each warning was caused by cmake_minimum_required(VERSION ...) declaring a value below 3.10.
+- The affected child minimum declarations have been changed to 3.10. The launcher root still requires CMake 3.15.
+
+Validation:
+- A fresh standalone CMake configure of libraries/zlib (now minimum 3.10) completed without CMake Deprecation Warning output.
+- Source audit confirms no libraries/CMakeLists.txt declares a minimum below 3.10.
+- The full root configure attempt is blocked at find_package(Qt5 REQUIRED ...), because Qt5Config.cmake is unavailable in this environment. It stops before the child libraries are added; its lack of warning output is therefore not treated as a full-project warning verification.
+
+The warning source was removed by correcting the affected compatibility declarations, not by globally suppressing unrelated CMake deprecation diagnostics.

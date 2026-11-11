@@ -1,0 +1,24 @@
+Future-dated CMake input timestamp regression validation
+
+Observed archive/source state:
+- Root CMakeLists.txt carried a timestamp of 2026-11-11 15:59:44 UTC.
+- The build session supplied by XLuke44 occurred at approximately 2026-11-11 15:20 UTC.
+- This left a tracked CMake configure input in the future relative to the build host clock.
+
+Reproduction:
+- A minimal Ninja/CMake project was configured normally.
+- Its CMakeLists.txt timestamp was then set to 2030-01-01 UTC.
+- Ninja repeatedly ran "Re-running CMake..." and terminated after 100 attempts with:
+  ninja: error: manifest 'build.ninja' still dirty after 100 tries, perhaps system time is not set
+- The reproduction log is future-mtime-regression-reproduction.log.
+
+Fixes:
+- The Linux portable build script now checks CMakeLists.txt, *.cmake, *.cmake.in, and *.cmakein inputs before configuration. Only inputs newer than the current clock are touched back to the current time.
+- Both distributed source archives normalize all file timestamps to 2020-01-01 UTC so extracted build inputs cannot be future-dated by archive metadata.
+
+Validation:
+- Re-ran the same future-date setup, then the build script's timestamp normalization snippet.
+- A fresh CMake/Ninja configure and build completed with no repeated CMake regeneration.
+- See future-mtime-fix-configure.log and future-mtime-fix-build.log.
+
+This does not disable CMake regeneration. It fixes the future-dated-input condition causing the repeated regeneration.

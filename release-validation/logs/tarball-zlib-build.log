@@ -1,0 +1,35 @@
+[1/1] Cleaning all built files...
+Cleaning... 0 files.
+[1/33] Building C object CMakeFiles/zlib.dir/compress.c.o
+[2/33] Building C object CMakeFiles/zlib.dir/gzclose.c.o
+[3/33] Building C object CMakeFiles/zlib.dir/adler32.c.o
+[4/33] Building C object CMakeFiles/zlib.dir/crc32.c.o
+[5/33] Building C object CMakeFiles/zlib.dir/gzwrite.c.o
+[6/33] Building C object CMakeFiles/zlib.dir/gzlib.c.o
+[7/33] Building C object CMakeFiles/zlib.dir/gzread.c.o
+[8/33] Building C object CMakeFiles/zlib.dir/deflate.c.o
+[9/33] Building C object CMakeFiles/zlib.dir/inftrees.c.o
+[10/33] Building C object CMakeFiles/zlib.dir/infback.c.o
+[11/33] Building C object CMakeFiles/zlib.dir/uncompr.c.o
+[12/33] Building C object CMakeFiles/zlib.dir/inffast.c.o
+[13/33] Building C object CMakeFiles/zlib.dir/zutil.c.o
+[14/33] Building C object CMakeFiles/zlibstatic.dir/compress.c.o
+[15/33] Building C object CMakeFiles/zlib.dir/inflate.c.o
+[16/33] Building C object CMakeFiles/zlibstatic.dir/adler32.c.o
+[17/33] Building C object CMakeFiles/zlibstatic.dir/gzclose.c.o
+[18/33] Building C object CMakeFiles/zlib.dir/trees.c.o
+[19/33] Linking C shared library libz.so.1.2.13
+[20/33] Building C object CMakeFiles/zlibstatic.dir/gzlib.c.o
+[21/33] Building C object CMakeFiles/zlibstatic.dir/gzread.c.o
+[22/33] Building C object CMakeFiles/zlibstatic.dir/crc32.c.o
+[23/33] Building C object CMakeFiles/zlibstatic.dir/gzwrite.c.o
+[24/33] Building C object CMakeFiles/zlibstatic.dir/inftrees.c.o
+[25/33] Building C object CMakeFiles/zlibstatic.dir/inffast.c.o
+[26/33] Building C object CMakeFiles/zlibstatic.dir/infback.c.o
+[27/33] Building C object CMakeFiles/zlibstatic.dir/inflate.c.o
+[28/33] Building C object CMakeFiles/zlibstatic.dir/zutil.c.o
+[29/33] Creating library symlink libz.so.1 libz.so
+[30/33] Building C object CMakeFiles/zlibstatic.dir/uncompr.c.o
+[31/33] Building C object CMakeFiles/zlibstatic.dir/deflate.c.o
+[32/33] Building C object CMakeFiles/zlibstatic.dir/trees.c.o
+[33/33] Linking C static library libz.a

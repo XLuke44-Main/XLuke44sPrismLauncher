@@ -1,0 +1,676 @@
+XLuke44 PrismLauncher 1.0.3 — Follow-up Build and Validation Logs
+The full application compile is not claimed. Full details and limitations are in the release report.
+
+============================================================
+FILE: release-validation/logs/future-mtime-regression-reproduction.log
+============================================================
+[0/1] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/2] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/3] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/4] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/5] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/6] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/7] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/8] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/9] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/10] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/11] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/12] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/13] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/14] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/15] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/16] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/17] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/18] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/19] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/20] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/21] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/22] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/23] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/24] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/25] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/26] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/27] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/28] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/29] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/30] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/31] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/32] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/33] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/34] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/35] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/36] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/37] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/38] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/39] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/40] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/41] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/42] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/43] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/44] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/45] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/46] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/47] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/48] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/49] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/50] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/51] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/52] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/53] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/54] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/55] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/56] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/57] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/58] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/59] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/60] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/61] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/62] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/63] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/64] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/65] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/66] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/67] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/68] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/69] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/70] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/71] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/72] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/73] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/74] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/75] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/76] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/77] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/78] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/79] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/80] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/81] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/82] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/83] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/84] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/85] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/86] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/87] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/88] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/89] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/90] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/91] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/92] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/93] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/94] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/95] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/96] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/97] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/98] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/99] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+[0/100] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cmake-future-mtime-test/build
+ninja: error: manifest 'build.ninja' still dirty after 100 tries, perhaps system time is not set
+
+============================================================
+FILE: release-validation/logs/future-mtime-fix-configure.log
+============================================================
+-- The C compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/xluke44-future-mtime-probe/build
+
+============================================================
+FILE: release-validation/logs/future-mtime-fix-build.log
+============================================================
+[1/2] Building C object CMakeFiles/test.dir/main.c.o
+[2/2] Linking C executable test
+
+============================================================
+FILE: release-validation/logs/future-mtime-fix-validation.log
+============================================================
+Future-dated CMake input timestamp regression validation
+
+Observed archive/source state:
+- Root CMakeLists.txt carried a timestamp of 2026-11-11 15:59:44 UTC.
+- The build session supplied by XLuke44 occurred at approximately 2026-11-11 15:20 UTC.
+- This left a tracked CMake configure input in the future relative to the build host clock.
+
+Reproduction:
+- A minimal Ninja/CMake project was configured normally.
+- Its CMakeLists.txt timestamp was then set to 2030-01-01 UTC.
+- Ninja repeatedly ran "Re-running CMake..." and terminated after 100 attempts with:
+  ninja: error: manifest 'build.ninja' still dirty after 100 tries, perhaps system time is not set
+- The reproduction log is future-mtime-regression-reproduction.log.
+
+Fixes:
+- The Linux portable build script now checks CMakeLists.txt, *.cmake, *.cmake.in, and *.cmakein inputs before configuration. Only inputs newer than the current clock are touched back to the current time.
+- Both distributed source archives normalize all file timestamps to 2020-01-01 UTC so extracted build inputs cannot be future-dated by archive metadata.
+
+Validation:
+- Re-ran the same future-date setup, then the build script's timestamp normalization snippet.
+- A fresh CMake/Ninja configure and build completed with no repeated CMake regeneration.
+- See future-mtime-fix-configure.log and future-mtime-fix-build.log.
+
+This does not disable CMake regeneration. It fixes the future-dated-input condition causing the repeated regeneration.
+
+============================================================
+FILE: release-validation/logs/cmark-cmp0077-configure.log
+============================================================
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/xluke44-cmark-policy-probe/build
+
+============================================================
+FILE: release-validation/logs/cmark-cmp0077-build.log
+============================================================
+[1/20] Building C object cmark/src/CMakeFiles/cmark.dir/cmark_ctype.c.o
+[2/20] Building C object cmark/src/CMakeFiles/cmark.dir/cmark.c.o
+[3/20] Building C object cmark/src/CMakeFiles/cmark.dir/houdini_href_e.c.o
+[4/20] Building C object cmark/src/CMakeFiles/cmark.dir/houdini_html_e.c.o
+[5/20] Building C object cmark/src/CMakeFiles/cmark.dir/buffer.c.o
+[6/20] Building C object cmark/src/CMakeFiles/cmark.dir/houdini_html_u.c.o
+[7/20] Building C object cmark/src/CMakeFiles/cmark.dir/commonmark.c.o
+[8/20] Building C object cmark/src/CMakeFiles/cmark.dir/iterator.c.o
+[9/20] Building C object cmark/src/CMakeFiles/cmark.dir/blocks.c.o
+[10/20] Building C object cmark/src/CMakeFiles/cmark.dir/html.c.o
+[11/20] Building C object cmark/src/CMakeFiles/cmark.dir/latex.c.o
+[12/20] Building C object cmark/src/CMakeFiles/cmark.dir/man.c.o
+[13/20] Building C object cmark/src/CMakeFiles/cmark.dir/node.c.o
+[14/20] Building C object cmark/src/CMakeFiles/cmark.dir/references.c.o
+[15/20] Building C object cmark/src/CMakeFiles/cmark.dir/render.c.o
+[16/20] Building C object cmark/src/CMakeFiles/cmark.dir/inlines.c.o
+[17/20] Building C object cmark/src/CMakeFiles/cmark.dir/xml.c.o
+[18/20] Building C object cmark/src/CMakeFiles/cmark.dir/utf8.c.o
+[19/20] Building C object cmark/src/CMakeFiles/cmark.dir/scanners.c.o
+[20/20] Linking C static library cmark/src/libcmark.a
+
+============================================================
+FILE: release-validation/logs/cmark-cmp0077-validation.log
+============================================================
+CMP0077 developer warning validation
+
+A wrapper CMake project sets BUILD_SHARED_LIBS=0 as a normal variable, then adds the bundled cmark directory. This reproduces the parent/child policy interaction that previously emitted a CMP0077 developer warning.
+
+libraries/cmark/CMakeLists.txt now sets CMP0077 to NEW when the policy is available, before calling option(BUILD_SHARED_LIBS ...).
+
+Results:
+- Fresh CMake configure completed without the CMP0077 developer warning.
+- CMake asserted the cmark target type was STATIC_LIBRARY.
+- The cmark static library compiled successfully (20 Ninja steps).
+
+Logs: cmark-cmp0077-configure.log and cmark-cmp0077-build.log.
+
+============================================================
+FILE: release-validation/logs/zlib-final-configure.log
+============================================================
+-- The C compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of off64_t
+-- Check size of off64_t - done
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for stdarg.h
+-- Looking for stdarg.h - found
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/xluke44-final-zlib-build
+
+============================================================
+FILE: release-validation/logs/zlib-final-build.log
+============================================================
+[1/33] Building C object CMakeFiles/zlib.dir/compress.c.o
+[2/33] Building C object CMakeFiles/zlib.dir/gzclose.c.o
+[3/33] Building C object CMakeFiles/zlib.dir/crc32.c.o
+[4/33] Building C object CMakeFiles/zlib.dir/adler32.c.o
+[5/33] Building C object CMakeFiles/zlib.dir/gzlib.c.o
+[6/33] Building C object CMakeFiles/zlib.dir/gzread.c.o
+[7/33] Building C object CMakeFiles/zlib.dir/gzwrite.c.o
+[8/33] Building C object CMakeFiles/zlib.dir/infback.c.o
+[9/33] Building C object CMakeFiles/zlib.dir/inftrees.c.o
+[10/33] Building C object CMakeFiles/zlib.dir/inflate.c.o
+[11/33] Building C object CMakeFiles/zlib.dir/uncompr.c.o
+[12/33] Building C object CMakeFiles/zlib.dir/deflate.c.o
+[13/33] Building C object CMakeFiles/zlib.dir/inffast.c.o
+[14/33] Building C object CMakeFiles/zlibstatic.dir/compress.c.o
+[15/33] Building C object CMakeFiles/zlib.dir/zutil.c.o
+[16/33] Building C object CMakeFiles/zlibstatic.dir/adler32.c.o
+[17/33] Building C object CMakeFiles/zlibstatic.dir/gzclose.c.o
+[18/33] Building C object CMakeFiles/zlibstatic.dir/gzlib.c.o
+[19/33] Building C object CMakeFiles/zlibstatic.dir/crc32.c.o
+[20/33] Building C object CMakeFiles/zlibstatic.dir/gzread.c.o
+[21/33] Building C object CMakeFiles/zlib.dir/trees.c.o
+[22/33] Linking C shared library libz.so.1.2.13
+[23/33] Building C object CMakeFiles/zlibstatic.dir/deflate.c.o
+[24/33] Building C object CMakeFiles/zlibstatic.dir/gzwrite.c.o
+[25/33] Building C object CMakeFiles/zlibstatic.dir/inftrees.c.o
+[26/33] Building C object CMakeFiles/zlibstatic.dir/infback.c.o
+[27/33] Building C object CMakeFiles/zlibstatic.dir/uncompr.c.o
+[28/33] Building C object CMakeFiles/zlibstatic.dir/zutil.c.o
+[29/33] Creating library symlink libz.so.1 libz.so
+[30/33] Building C object CMakeFiles/zlibstatic.dir/inffast.c.o
+[31/33] Building C object CMakeFiles/zlibstatic.dir/trees.c.o
+[32/33] Building C object CMakeFiles/zlibstatic.dir/inflate.c.o
+[33/33] Linking C static library libz.a
+
+============================================================
+FILE: release-validation/logs/zlib-final-test.log
+============================================================
+PASS: compress/uncompress and gzwrite/gzread round-trips
+
+============================================================
+FILE: release-validation/logs/zlib-final-ctest.log
+============================================================
+Internal ctest changing into directory: /tmp/xluke44-final-zlib-build
+Test project /tmp/xluke44-final-zlib-build
+No tests were found!!!
+
+============================================================
+FILE: release-validation/logs/build-script-syntax.log
+============================================================
+Build script syntax validation
+
+Command:
+  bash -n scripts/build-linux-portable.bash
+
+Result: PASS
+
+The script's future-dated CMake input normalization block was separately exercised in a synthetic CMake/Ninja project. The fresh configure/build completed without repeated CMake regeneration.
+
+============================================================
+FILE: release-validation/logs/source-change-audit-followup.log
+============================================================
+Original source files: 2115
+Modified existing files: 14
+MODIFIED: libraries/LocalPeer/CMakeLists.txt
+MODIFIED: libraries/cmark/CMakeLists.txt
+MODIFIED: libraries/filesystem/CMakeLists.txt
+MODIFIED: libraries/gamemode/CMakeLists.txt
+MODIFIED: libraries/javacheck/CMakeLists.txt
+MODIFIED: libraries/katabasis/CMakeLists.txt
+MODIFIED: libraries/launcher/CMakeLists.txt
+MODIFIED: libraries/libnbtplusplus/CMakeLists.txt
+MODIFIED: libraries/murmur2/CMakeLists.txt
+MODIFIED: libraries/qdcss/CMakeLists.txt
+MODIFIED: libraries/rainbow/CMakeLists.txt
+MODIFIED: libraries/zlib/CMakeLists.txt
+MODIFIED: libraries/zlib/zconf.h.cmakein
+MODIFIED: scripts/build-linux-portable.bash
+Deleted original files: 0
+Added release/evidence files: 27
+ADDED: RELEASE-REPORT-1.0.3.md
+ADDED: release-validation/BUILD-AND-VALIDATION-LOGS.txt
+ADDED: release-validation/logs/application-configure-qt5.log
+ADDED: release-validation/logs/build-script-syntax.log
+ADDED: release-validation/logs/cmake-warning-validation.log
+ADDED: release-validation/logs/cmark-cmp0077-build.log
+ADDED: release-validation/logs/cmark-cmp0077-configure.log
+ADDED: release-validation/logs/cmark-cmp0077-validation.log
+ADDED: release-validation/logs/future-mtime-fix-build.log
+ADDED: release-validation/logs/future-mtime-fix-configure.log
+ADDED: release-validation/logs/future-mtime-fix-validation.log
+ADDED: release-validation/logs/future-mtime-regression-reproduction.log
+ADDED: release-validation/logs/generated-zconf-validation.log
+ADDED: release-validation/logs/original-cmake-deprecation-output.log
+ADDED: release-validation/logs/original-zlib-compilation-errors.log
+ADDED: release-validation/logs/resource-validation.log
+ADDED: release-validation/logs/source-change-audit-followup.log
+ADDED: release-validation/logs/source-change-audit.log
+ADDED: release-validation/logs/tarball-zlib-build.log
+ADDED: release-validation/logs/tarball-zlib-configure.log
+ADDED: release-validation/logs/tarball-zlib-test.log
+ADDED: release-validation/logs/version-validation.log
+ADDED: release-validation/logs/zlib-build.log
+ADDED: release-validation/logs/zlib-configure.log
+ADDED: release-validation/logs/zlib-ctest.log
+ADDED: release-validation/logs/zlib-roundtrip-test.log
+ADDED: release-validation/tests/zlib-roundtrip-test.c
+PASS: no original source files deleted
+
+============================================================
+FILE: release-validation/logs/final-followup-summary.log
+============================================================
+Follow-up validation summary
+
+Environment:
+- CMake 3.31.6
+- GNU C/C++ 14.2.0
+- Ninja generator
+
+Validated:
+- CMake/Ninja future timestamp regression: reproduced the persistent regeneration loop and the 100-try Ninja error in a minimal project.
+- Future-dated CMake input correction: same test configured and built successfully after the portable build script's timestamp normalization.
+- cmark CMP0077: wrapper project configured without the developer warning; parent BUILD_SHARED_LIBS=0 was preserved and the static cmark target compiled successfully.
+- Final TAR.GZ extraction: root and nested CMake inputs extracted with 2020-01-01 UTC timestamps.
+- Final extracted bundled zlib: fresh configure completed; all 33 shared/static library build steps passed; gzip/compression smoke test passed with -Wall -Wextra -Werror.
+- CTest: no tests registered in bundled zlib project.
+- Full launcher build: not run in this container because Qt 5 development packages are unavailable here. XLuke44's supplied machine log shows Qt 5 is available and CMake generation completes; the repeated regeneration loop was the blocker in that log.

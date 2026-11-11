@@ -1,0 +1,8 @@
+Build script syntax validation
+
+Command:
+  bash -n scripts/build-linux-portable.bash
+
+Result: PASS
+
+The script's future-dated CMake input normalization block was separately exercised in a synthetic CMake/Ninja project. The fresh configure/build completed without repeated CMake regeneration.

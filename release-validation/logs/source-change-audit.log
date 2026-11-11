@@ -1,0 +1,37 @@
+Original source files: 2115
+Modified existing source files: 13
+MODIFIED: libraries/LocalPeer/CMakeLists.txt
+MODIFIED: libraries/cmark/CMakeLists.txt
+MODIFIED: libraries/filesystem/CMakeLists.txt
+MODIFIED: libraries/gamemode/CMakeLists.txt
+MODIFIED: libraries/javacheck/CMakeLists.txt
+MODIFIED: libraries/katabasis/CMakeLists.txt
+MODIFIED: libraries/launcher/CMakeLists.txt
+MODIFIED: libraries/libnbtplusplus/CMakeLists.txt
+MODIFIED: libraries/murmur2/CMakeLists.txt
+MODIFIED: libraries/qdcss/CMakeLists.txt
+MODIFIED: libraries/rainbow/CMakeLists.txt
+MODIFIED: libraries/zlib/CMakeLists.txt
+MODIFIED: libraries/zlib/zconf.h.cmakein
+Deleted original files: 0
+Added release report/log/test files: 19
+ADDED: RELEASE-REPORT-1.0.3.md
+ADDED: release-validation/BUILD-AND-VALIDATION-LOGS.txt
+ADDED: release-validation/logs/application-configure-qt5.log
+ADDED: release-validation/logs/build-script-syntax.log
+ADDED: release-validation/logs/cmake-warning-validation.log
+ADDED: release-validation/logs/generated-zconf-validation.log
+ADDED: release-validation/logs/original-cmake-deprecation-output.log
+ADDED: release-validation/logs/original-zlib-compilation-errors.log
+ADDED: release-validation/logs/resource-validation.log
+ADDED: release-validation/logs/source-change-audit.log
+ADDED: release-validation/logs/tarball-zlib-build.log
+ADDED: release-validation/logs/tarball-zlib-configure.log
+ADDED: release-validation/logs/tarball-zlib-test.log
+ADDED: release-validation/logs/version-validation.log
+ADDED: release-validation/logs/zlib-build.log
+ADDED: release-validation/logs/zlib-configure.log
+ADDED: release-validation/logs/zlib-ctest.log
+ADDED: release-validation/logs/zlib-roundtrip-test.log
+ADDED: release-validation/tests/zlib-roundtrip-test.c
+PASS: exactly 13 expected source/build configuration files modified; no original files deleted.

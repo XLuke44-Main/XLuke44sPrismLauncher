@@ -1,0 +1,15 @@
+Follow-up validation summary
+
+Environment:
+- CMake 3.31.6
+- GNU C/C++ 14.2.0
+- Ninja generator
+
+Validated:
+- CMake/Ninja future timestamp regression: reproduced the persistent regeneration loop and the 100-try Ninja error in a minimal project.
+- Future-dated CMake input correction: same test configured and built successfully after the portable build script's timestamp normalization.
+- cmark CMP0077: wrapper project configured without the developer warning; parent BUILD_SHARED_LIBS=0 was preserved and the static cmark target compiled successfully.
+- Final TAR.GZ extraction: root and nested CMake inputs extracted with 2020-01-01 UTC timestamps.
+- Final extracted bundled zlib: fresh configure completed; all 33 shared/static library build steps passed; gzip/compression smoke test passed with -Wall -Wextra -Werror.
+- CTest: no tests registered in bundled zlib project.
+- Full launcher build: not run in this container because Qt 5 development packages are unavailable here. XLuke44's supplied machine log shows Qt 5 is available and CMake generation completes; the repeated regeneration loop was the blocker in that log.
