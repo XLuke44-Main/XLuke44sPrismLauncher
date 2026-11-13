@@ -18,7 +18,7 @@ There are two release types:
 - **Portable:** Extract the release and run it. Launcher data is stored alongside the application. The Linux portable archive is built using `scripts/build-linux-portable.bash`.
 - **Non-portable:** Uses the standard installation layout for the platform.
 
-I currently only support linux, but windows support is planned for sometime in the future/
+I currently only support linux, but windows support is planned for sometime in the future.
 
 I don't maintain Flatpak or distro-specific packages.
 
