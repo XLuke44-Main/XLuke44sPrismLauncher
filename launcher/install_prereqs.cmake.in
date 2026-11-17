@@ -1,0 +1,23 @@
+set(CMAKE_MODULE_PATH "@CMAKE_MODULE_PATH@")
+
+file(GLOB_RECURSE    QTPLUGINS "${CMAKE_INSTALL_PREFIX}/@PLUGIN_DEST_DIR@/*@CMAKE_SHARED_LIBRARY_SUFFIX@")
+function(gp_resolved_file_type_override resolved_file type_var)
+    # Bundle non-glibc shared-library dependencies for the Linux portable archive.
+    # glibc and its dynamic loader must remain provided by the host.
+    if(UNIX AND NOT APPLE AND IS_ABSOLUTE "${resolved_file}")
+        if(resolved_file MATCHES "/(ld-linux[^/]*|ld64\\.so[^/]*|libc\\.so[^/]*|libm\\.so[^/]*|libmvec\\.so[^/]*|libpthread\\.so[^/]*|libdl\\.so[^/]*|librt\\.so[^/]*|libresolv\\.so[^/]*|libnss_[^/]*\\.so[^/]*|libutil\\.so[^/]*|libanl\\.so[^/]*|libthread_db\\.so[^/]*|libBrokenLocale\\.so[^/]*)$")
+            set(${type_var} system PARENT_SCOPE)
+        else()
+            set(${type_var} local PARENT_SCOPE)
+        endif()
+    endif()
+endfunction()
+
+set(gp_tool "@CMAKE_GP_TOOL@")
+set(gp_cmd_paths ${gp_cmd_paths}
+ "@CMAKE_GP_CMD_PATHS@"
+)
+
+include(BundleUtilities)
+fixup_bundle("@APPS@" "${QTPLUGINS}" "@DIRS@")
+
