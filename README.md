@@ -40,7 +40,7 @@ Imgur support has been completely removed, along with all related code and API k
 
 ## Legal Disclaimer
 
-This is an **independently maintained** fork of Prism Launcher, based on version 8.4. The standalone XLuke44s Prism Launcher repository is https://github.com/XLuke44-Main/XLuke44sPrismLauncher. It is **not** affiliated with or endorsed by the original PrismLauncher project or its contributors.
+This is an **independently maintained** fork of Prism Launcher, based on version 8.4. The Original Prism Launcher repository is https://github.com/PrismLauncher/PrismLauncher . It is **not** affiliated with or endorsed by the original PrismLauncher project or its contributors.
 
 All original copyright notices, attributions, and third-party licence notices have been retained.
 
