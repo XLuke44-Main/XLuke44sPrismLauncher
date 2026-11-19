@@ -1,0 +1,10 @@
+
+#ifndef @GUARD_NAME@
+#define @GUARD_NAME@
+
+#include <QLoggingCategory>
+@OPEN_NAMESPACES@
+Q_DECLARE_LOGGING_CATEGORY(@IDENTIFIER@)
+@CLOSE_NAMESPACES@
+
+#endif

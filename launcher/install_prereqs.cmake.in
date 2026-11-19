@@ -1,0 +1,153 @@
+set(CMAKE_MODULE_PATH "@CMAKE_MODULE_PATH@")
+
+if("@CMAKE_SYSTEM_NAME@" STREQUAL "Windows")
+    set(_launcher_apps
+        "${CMAKE_INSTALL_PREFIX}/@Launcher_APP_BINARY_NAME@.exe"
+        "${CMAKE_INSTALL_PREFIX}/@Launcher_APP_BINARY_NAME@_filelink.exe"
+    )
+    foreach(_launcher_app IN LISTS _launcher_apps)
+        if(NOT EXISTS "${_launcher_app}")
+            message(FATAL_ERROR "Required Windows application executable is missing: ${_launcher_app}")
+        endif()
+        file(SIZE "${_launcher_app}" _launcher_app_size)
+        if(_launcher_app_size EQUAL 0)
+            message(FATAL_ERROR "Required Windows application executable is empty: ${_launcher_app}")
+        endif()
+    endforeach()
+
+    
+    
+    
+    set(_launcher_qt_library_dir "${CMAKE_INSTALL_PREFIX}")
+    set(_launcher_qt_plugin_dir "${CMAKE_INSTALL_PREFIX}/plugins")
+    set(ENV{PATH} "@QT_BINS_DIR@;$ENV{PATH}")
+
+    execute_process(
+        COMMAND "@Launcher_WINDEPLOYQT_EXECUTABLE@"
+            --release
+            --no-translations
+            --compiler-runtime
+            --force
+            --dir "${CMAKE_INSTALL_PREFIX}"
+            --plugindir "${_launcher_qt_plugin_dir}"
+            --libdir "${_launcher_qt_library_dir}"
+            ${_launcher_apps}
+        WORKING_DIRECTORY "${CMAKE_INSTALL_PREFIX}"
+        RESULT_VARIABLE _windeployqt_result
+        OUTPUT_VARIABLE _windeployqt_stdout
+        ERROR_VARIABLE _windeployqt_stderr
+    )
+    if(NOT _windeployqt_result EQUAL 0)
+        message(FATAL_ERROR
+            "windeployqt failed with exit code ${_windeployqt_result}.\n"
+            "stdout:\n${_windeployqt_stdout}\n"
+            "stderr:\n${_windeployqt_stderr}")
+    endif()
+
+    
+    
+    
+    set(_launcher_required_qt_dlls
+        "Qt@QT_VERSION_MAJOR@Core.dll"
+        "Qt@QT_VERSION_MAJOR@Gui.dll"
+        "Qt@QT_VERSION_MAJOR@Network.dll"
+        "Qt@QT_VERSION_MAJOR@Widgets.dll"
+        "Qt@QT_VERSION_MAJOR@Xml.dll"
+        "Qt@QT_VERSION_MAJOR@Concurrent.dll"
+    )
+    if("@QT_VERSION_MAJOR@" STREQUAL "6")
+        list(APPEND _launcher_required_qt_dlls "Qt6Core5Compat.dll")
+    endif()
+    if(EXISTS "@QT_PLUGINS_DIR@/iconengines/qsvgicon.dll" OR EXISTS "@QT_PLUGINS_DIR@/imageformats/qsvg.dll")
+        list(APPEND _launcher_required_qt_dlls "Qt@QT_VERSION_MAJOR@Svg.dll")
+    endif()
+    foreach(_launcher_qt_dll IN LISTS _launcher_required_qt_dlls)
+        set(_launcher_qt_dll_path "${CMAKE_INSTALL_PREFIX}/${_launcher_qt_dll}")
+        if(NOT EXISTS "${_launcher_qt_dll_path}")
+            message(FATAL_ERROR "Qt deployment is incomplete: ${_launcher_qt_dll} is missing from ${CMAKE_INSTALL_PREFIX}")
+        endif()
+        file(SIZE "${_launcher_qt_dll_path}" _launcher_qt_dll_size)
+        if(_launcher_qt_dll_size EQUAL 0)
+            message(FATAL_ERROR "Qt deployment is incomplete: ${_launcher_qt_dll} is empty in ${CMAKE_INSTALL_PREFIX}")
+        endif()
+    endforeach()
+
+    set(_launcher_required_files
+        "${CMAKE_INSTALL_PREFIX}/plugins/platforms/qwindows.dll"
+        "${CMAKE_INSTALL_PREFIX}/qt.conf"
+        "${CMAKE_INSTALL_PREFIX}/qtlogging.ini"
+    )
+    foreach(_launcher_required_file IN LISTS _launcher_required_files)
+        if(NOT EXISTS "${_launcher_required_file}")
+            message(FATAL_ERROR "Windows Qt deployment is incomplete: required file is missing: ${_launcher_required_file}")
+        endif()
+        file(SIZE "${_launcher_required_file}" _launcher_required_file_size)
+        if(_launcher_required_file_size EQUAL 0)
+            message(FATAL_ERROR "Windows Qt deployment is incomplete: required file is empty: ${_launcher_required_file}")
+        endif()
+    endforeach()
+
+    if("@QT_VERSION_MAJOR@" STREQUAL "5")
+        set(_launcher_openssl_sources "@Launcher_OPENSSL_RUNTIME_DLLS@")
+        if(NOT _launcher_openssl_sources)
+            message(FATAL_ERROR "Qt 5 HTTPS deployment is incomplete: the configured OpenSSL runtime DLL pair is empty.")
+        endif()
+        foreach(_launcher_openssl_source IN LISTS _launcher_openssl_sources)
+            get_filename_component(_launcher_openssl_name "${_launcher_openssl_source}" NAME)
+            set(_launcher_openssl_destination "${CMAKE_INSTALL_PREFIX}/${_launcher_openssl_name}")
+            if(NOT EXISTS "${_launcher_openssl_destination}")
+                message(FATAL_ERROR "Qt 5 HTTPS deployment is incomplete: ${_launcher_openssl_name} was not copied beside the application executable.")
+            endif()
+            file(SIZE "${_launcher_openssl_destination}" _launcher_openssl_size)
+            if(_launcher_openssl_size EQUAL 0)
+                message(FATAL_ERROR "Qt 5 HTTPS deployment is incomplete: ${_launcher_openssl_name} is empty.")
+            endif()
+        endforeach()
+    elseif("@QT_VERSION_MAJOR@" STREQUAL "6")
+        if(NOT EXISTS "${CMAKE_INSTALL_PREFIX}/plugins/tls/qschannelbackend.dll"
+           AND NOT EXISTS "${CMAKE_INSTALL_PREFIX}/plugins/tls/qopensslbackend.dll")
+            message(FATAL_ERROR "Qt 6 HTTPS deployment is incomplete: neither qschannelbackend.dll nor qopensslbackend.dll was deployed to plugins/tls.")
+        endif()
+    endif()
+
+    
+    
+    
+    set(gp_tool "dumpbin")
+else()
+    set(gp_tool "@CMAKE_GP_TOOL@")
+endif()
+
+
+function(gp_resolved_file_type_override resolved_file type_var)
+    if(CMAKE_SYSTEM_NAME STREQUAL "Linux" AND IS_ABSOLUTE "${resolved_file}")
+        if(resolved_file MATCHES "/(ld-linux[^/]*|ld64\\.so[^/]*|libc\\.so[^/]*|libm\\.so[^/]*|libmvec\\.so[^/]*|libpthread\\.so[^/]*|libdl\\.so[^/]*|librt\\.so[^/]*|libresolv\\.so[^/]*|libnss_[^/]*\\.so[^/]*|libutil\\.so[^/]*|libanl\\.so[^/]*|libthread_db\\.so[^/]*|libBrokenLocale\\.so[^/]*)$")
+            set(${type_var} system PARENT_SCOPE)
+        else()
+            set(${type_var} local PARENT_SCOPE)
+        endif()
+    endif()
+endfunction()
+
+file(GLOB_RECURSE QTPLUGINS
+    "${CMAKE_INSTALL_PREFIX}/@PLUGIN_DEST_DIR@/*@CMAKE_SHARED_LIBRARY_SUFFIX@"
+)
+if("@CMAKE_SYSTEM_NAME@" STREQUAL "Windows" AND "@QT_VERSION_MAJOR@" STREQUAL "5")
+    
+    
+    
+    foreach(_launcher_openssl_source IN LISTS _launcher_openssl_sources)
+        get_filename_component(_launcher_openssl_name "${_launcher_openssl_source}" NAME)
+        list(APPEND QTPLUGINS "${CMAKE_INSTALL_PREFIX}/${_launcher_openssl_name}")
+    endforeach()
+endif()
+set(gp_cmd_paths ${gp_cmd_paths}
+    "@CMAKE_GP_CMD_PATHS@"
+)
+
+include(BundleUtilities)
+
+
+
+
+fixup_bundle("@APPS@" "${QTPLUGINS}" "@DIRS@")
