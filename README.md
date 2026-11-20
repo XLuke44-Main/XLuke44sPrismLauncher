@@ -3,7 +3,7 @@
     <img
       src="program_info/org.prismlauncher.PrismLauncher.svg"
       alt="Prism Launcher"
-      width="44%"
+      width="34%"
     />
   </picture>
 </p>
