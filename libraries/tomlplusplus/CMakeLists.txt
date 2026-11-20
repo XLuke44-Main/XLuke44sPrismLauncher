@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.14)
+add_library(tomlplusplus_tomlplusplus INTERFACE)
+add_library(tomlplusplus::tomlplusplus ALIAS tomlplusplus_tomlplusplus)
+target_include_directories(tomlplusplus_tomlplusplus INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_compile_features(tomlplusplus_tomlplusplus INTERFACE cxx_std_17)

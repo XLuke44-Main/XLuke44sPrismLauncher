@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/translations">
+        <file alias="mmc_en_GB.qm">mmc_en_GB.qm</file>
+        <file alias="mmc_pl_PL.qm">mmc_pl_PL.qm</file>
+    </qresource>
+</RCC>
