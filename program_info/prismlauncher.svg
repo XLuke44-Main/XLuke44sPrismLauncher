@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" id="svg12">
+  <defs id="defs12"/>
+  <g id="g13" transform="matrix(0.99454395,0,0,1.0022666,6.6681969,-34.181719)">
+    <g stroke-width="0.26458" id="g10" transform="matrix(9.8642491,0,0,9.8642491,-1.2352796,39.048257)">
+      <path d="M 6.35,0.52916667 3.8292236,4.8947917 6.35,6.35 3.8292236,7.8052083 6.35,12.170833 c 0.29104,0 1.4787136,-0.601452 2.6298136,-1.266072 1.1511004,-0.66459 2.2657224,-1.3923443 2.4112224,-1.6443443 0.145518,-0.252046 0.218062,-1.581238 0.218075,-2.9104167 0,-1.3292 -0.07255,-2.6584167 -0.218075,-2.9104167 -0.14552,-0.25205 -1.260122,-0.979794 -2.4112224,-1.644344 C 7.8287136,1.1306493 6.641,0.52916667 6.35,0.52916667 Z" id="path14" fill="#7b46aa" stroke="none"/>
+      <path d="m 6.35,0.52916667 c -0.58208,-2e-8 -4.750036,2.40631663 -5.041036,2.91041663 -0.2910233,0.5040712 -0.29099,5.3162689 0,5.8208334 C 1.600004,9.7645167 5.768,12.170833 6.35,12.170833 V 6.35 3.4395833 Z" id="path15" fill="#312969" stroke="none"/>
+    </g>
+    <g transform="matrix(8.6805392,0,0,8.6805392,-108.81478,26.795868)" id="g12-0">
+      <g transform="translate(13.26,2.2776)" id="g11">
+        <path transform="matrix(0.96975,0,0,0.96975,0.1921,0.1921)" d="m 6.3498,2.9393 c -0.34105,0 -2.7827,1.4099 -2.9532,1.7052 L 6.3498,9.7602 9.3036,4.6445 C 9.13308,4.34915 6.6909,2.9393 6.3498,2.9393 Z" fill="#eedbff" stroke-width="0.26458" id="path11-9"/>
+      </g>
+      <path d="m 16.746,6.9737 2.8639,4.9609 c 0.33073,0 2.6991,-1.3672 2.8644,-1.6536 0.16536,-0.28642 0.16536,-3.0209 0,-3.3073 l -2.8644,1.6536 z" fill="#e1bfff" stroke-width="0.26458" id="path12-3"/>
+    </g>
+    <path d="m 36.543806,87.33177 c -1.435341,2.486321 -1.435538,26.22316 0,28.70889 1.435549,2.48623 21.989387,14.3545 24.860868,14.3545 v -28.70889 z" fill="#d7a9ff" stroke-width="2.60989" id="path13"/>
+  </g>
+<metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><ns1:Work xmlns:ns1="http://creativecommons.org/ns#" rdf:about=""><dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Prism Launcher Logo</dc:title><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><ns1:Agent><dc:title>Prism Launcher</dc:title></ns1:Agent></dc:creator><dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/"><ns1:Agent><dc:title>AutiOne, Boba, ely, Fulmine, gon sawa, Pankakes, tobimori, Zeke</dc:title></ns1:Agent></dc:contributor><dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">https://github.com/XLuke44-Main/XLuke44sPrismLauncher</dc:source><dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"><ns1:Agent><dc:title>Prism Launcher</dc:title></ns1:Agent></dc:publisher><ns1:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/><dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/"><ns1:Agent><dc:title>XLuke44</dc:title></ns1:Agent></dc:contributor></ns1:Work><ns2:License xmlns:ns2="http://creativecommons.org/ns#" rdf:about="https://creativecommons.org/licenses/by-sa/4.0/"><ns2:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/><ns2:permits rdf:resource="http://creativecommons.org/ns#Distribution"/><ns2:requires rdf:resource="http://creativecommons.org/ns#Notice"/><ns2:requires rdf:resource="http://creativecommons.org/ns#Attribution"/><ns2:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/><ns2:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/></ns2:License></rdf:RDF></metadata></svg>

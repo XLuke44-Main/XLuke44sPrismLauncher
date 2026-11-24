@@ -1,0 +1,3 @@
+*.pem -crlf
+**/testdata/** -text -diff
+*.bat text eol=crlf

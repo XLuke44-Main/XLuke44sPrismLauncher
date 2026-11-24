@@ -1,0 +1,23 @@
+
+*.h -crlf
+*.cpp -crlf
+*.c -crlf
+*.dox -crlf
+
+CMakeLists.txt -crlf
+*.in -crlf
+*.cmakein -crlf
+*.symbols -crlf
+.editorconfig -crlf
+
+
+*.h text eol=lf
+*.cpp text eol=lf
+*.c text eol=lf
+*.dox text eol=lf
+
+CMakeLists.txt text eol=lf
+*.in text eol=lf
+*.cmakein text eol=lf
+*.symbols text eol=lf
+.editorconfig eol=lf
